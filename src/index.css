@@ -96,3 +96,22 @@ form button {
   border-radius: 4px;
   margin: 20px 0;
 }
+
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 10px;
+}
+
+/* auth form */
+.auth--form, .signup, .login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 4px;
+}
